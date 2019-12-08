@@ -1,6 +1,4 @@
 # Cobra Bot
-![Cobra Logo](/Users/carolinetipton/Downloads/COBRA/Cobra\ Page\ Images\ Backup/CobraLogoFinal.png)
-Format: ![Alt Text](url)
 
  All files and code associated with the Cobra, Python chatbot using IBM Watson for Dr. Vetter's CSC 455 course.
  
