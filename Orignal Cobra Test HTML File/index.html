@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>CodeBruh</title>
+        <link rel="stylesheet" href="styles/main.css">
+    </head>
+    <body>
+        <header>
+            <img src="images/codebruhlogo.jpg" alt="Cobra Bot" width="150">
+            <h2>Beginner Python Programming Chatbot</h2>
+        </header>
+        <main>
+            <p>This is where the Cobra Bot is going to go.</p>
+        </main>
+        <footer>
+            <p><h5>Thanks for using our Cobra Bot, hope it helped! If there were some questions that did not get answered,
+                feel free to go to the <a href="https://docs.python.org/3/"> Python Documentation</a> website.
+                <br>Project Members: Jake Ireland, Caroline Tipton, Vanessa Mendoza, Reili Jakubowski, Thomes Marsh, David Dossou
+            </h5></p>
+        </footer>
+        <script src=https://assistant-web.watsonplatform.net/loadWatsonAssistantChat.js></script>
+        <script>
+        window.loadWatsonAssistantChat({
+          integrationID: "05486355-2254-4d7e-8bfa-e014a49c00c1", // The ID of this integration.
+          region: "us-east" // The region your integration is hosted in.
+        }).then(function(instance){
+          instance.render();
+        });
+        </script>
+    </body>
+</html>

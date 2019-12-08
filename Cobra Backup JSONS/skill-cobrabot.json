@@ -1,0 +1,2420 @@
+{
+  "name": "cobrabot",
+  "type": "dialog",
+  "language": "en",
+  "skill_id": "4e42c31d-04cc-4254-9653-bc8568240562",
+  "workspace": {
+    "intents": [
+      {
+        "intent": "libraries",
+        "examples": [
+          {
+            "text": "How do I iterate through items using a for loop and then save them to a variable to be used with a different for loop?"
+          },
+          {
+            "text": "How do you know which variables go inside the loop?"
+          },
+          {
+            "text": "will python make my parents love me"
+          },
+          {
+            "text": "how do you save an image with openCV?"
+          },
+          {
+            "text": "What are the different math functions in python"
+          },
+          {
+            "text": "What are the most useful python modules?"
+          },
+          {
+            "text": "how do I convert an image greyscale using openCV?"
+          },
+          {
+            "text": "how do you draw a shape using  turtle?"
+          },
+          {
+            "text": "What other things can you import other than math?"
+          },
+          {
+            "text": "Ignore the 3 questions from before, I misunderstood what we were supposed to do"
+          },
+          {
+            "text": "How can I learn the base meaning of things?"
+          },
+          {
+            "text": "A for loop is created by using:for variable in sequence. for i in range(x,y,z). x is the first number in the range. Y is the second, and Z is the iteration. So if X is 1, Y is 10, and Z is 1. The output of the loop would be 123456789 "
+          },
+          {
+            "text": "Can the examples in class be more complex like labs so that we can understand labs more?"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "advanced",
+        "examples": [
+          {
+            "text": "You use a value returning function. Such as the function avg that takes the argument of three functions and return. Or to return the value of a list you could by using default arguments."
+          },
+          {
+            "text": "How to add an input statement into an additional input statement?"
+          },
+          {
+            "text": "How do I add user inputs to a list?"
+          },
+          {
+            "text": "What is the easiest way to break programs into sections in python to be assembled later?"
+          },
+          {
+            "text": "How many arguments can a print function handle? "
+          },
+          {
+            "text": "What an easy simple way when formatting a negative count list that accepts an integer list as a parameter and returns a count of how many numbers in the list are negative?"
+          },
+          {
+            "text": "How do I make a compound interest table?"
+          },
+          {
+            "text": "How do you link between different python files?"
+          },
+          {
+            "text": "How do you create a new list based on input that is able to call an item from a different list?"
+          },
+          {
+            "text": "What's the best thing to do when returning a count of the number of vowels in aString?"
+          },
+          {
+            "text": "How to return the sum of all the odd numbers between 1 (inclusive) and n (exclusive)"
+          },
+          {
+            "text": "Will the following code run correctly or output an error? : float(format(input('What is your GPA?', '.2f')))"
+          },
+          {
+            "text": "Is there a point in creating different variable names in a loop?"
+          },
+          {
+            "text": "How can i copy an object in python?"
+          },
+          {
+            "text": "how to make a function loop and compare things to give a boolean result, and return that result for multiple comparisons?"
+          },
+          {
+            "text": "In python, can  '==' and '!=' function be use with a string when using any type of formal control like while, if, for loop, etc. to execute the given instruction for example:   while i == 'a': print ('none') ?"
+          },
+          {
+            "text": "how do you solve 5//2 without using IDLE?"
+          },
+          {
+            "text": "how can you pick a random item from a tuple or list?"
+          },
+          {
+            "text": "How to format a list as the parameter of a defined function?"
+          },
+          {
+            "text": "A compiler runs through a source code and makes a seperate file that contains the machine code. It interprets one written language to another language. "
+          },
+          {
+            "text": "How do i use strings to call functions?"
+          }
+        ]
+      },
+      {
+        "intent": "definitions",
+        "examples": [
+          {
+            "text": "When should you use a for loop rather than a while loop?"
+          },
+          {
+            "text": "What is a function?"
+          },
+          {
+            "text": "What is the best way to name a variable?"
+          },
+          {
+            "text": "What is a Boolean operator and what do they mean?"
+          },
+          {
+            "text": "What is a membership operator?"
+          },
+          {
+            "text": "When exactly do we use len when it comes to lists and what is it?"
+          },
+          {
+            "text": "How many bits are in a byte?"
+          },
+          {
+            "text": "do is it the thing called when you define a function and use the ()?"
+          },
+          {
+            "text": "Are there things that a while loop can do that a for loop cannot do?"
+          },
+          {
+            "text": "How can I change the order of execution in python?"
+          },
+          {
+            "text": "What is a tuple?"
+          },
+          {
+            "text": "what is index used for"
+          },
+          {
+            "text": "what is the difference between a method and a function?"
+          },
+          {
+            "text": "what sort of problems is the reverse function use for?"
+          },
+          {
+            "text": "What is the difference between a nested if statement and an elif statement? "
+          },
+          {
+            "text": "What are the types of if statements?"
+          },
+          {
+            "text": "What is the proper spacing for a python file?"
+          },
+          {
+            "text": "What is the difference between // and % ?"
+          },
+          {
+            "text": "What is a Boolean?"
+          },
+          {
+            "text": "how would you solve 5//2 without IDLE?"
+          },
+          {
+            "text": "Are there things that a for loop can do that a while loop cannot do?"
+          },
+          {
+            "text": "What are conditionals?"
+          },
+          {
+            "text": "which methods or functions don't return anything and which do?"
+          },
+          {
+            "text": "What is bytecode?"
+          },
+          {
+            "text": "What does {:^3} do when formatting"
+          },
+          {
+            "text": "What is a for loop?"
+          },
+          {
+            "text": "What makes a loop infinite?"
+          },
+          {
+            "text": "What is a complier?"
+          },
+          {
+            "text": "How many types of strings are there?"
+          },
+          {
+            "text": "What is a compiler?"
+          },
+          {
+            "text": "what is python?"
+          },
+          {
+            "text": "what’s a compiler?"
+          },
+          {
+            "text": "what is the difference between and and or"
+          },
+          {
+            "text": "what is the difference between an array and a list?"
+          },
+          {
+            "text": "What is turtle"
+          },
+          {
+            "text": "What's the difference between a list and a dictionary?"
+          },
+          {
+            "text": "When to use while and for loops?"
+          },
+          {
+            "text": "When do we use while and for loops?"
+          },
+          {
+            "text": "When should I use a for loop?"
+          },
+          {
+            "text": "How many different types of loops are there?"
+          },
+          {
+            "text": "What is a global variable?"
+          },
+          {
+            "text": "are the function names in def (function name)():  considered variables?"
+          },
+          {
+            "text": "What is the greater than or equal to sign in Python?"
+          },
+          {
+            "text": "When's the best time to use an iterative control sequence? "
+          },
+          {
+            "text": "When is it best to use while loop versus for loop?"
+          },
+          {
+            "text": "What does the 'def' function do in python?"
+          },
+          {
+            "text": ">="
+          },
+          {
+            "text": "How do we know what way to sort out our values and statements?"
+          },
+          {
+            "text": "How do you say something is equal to something else?"
+          },
+          {
+            "text": "When should I use a while loop?"
+          },
+          {
+            "text": "What does break do?"
+          },
+          {
+            "text": "can i have a for loop within a for loop?"
+          },
+          {
+            "text": "What is the difference between sequences?"
+          },
+          {
+            "text": "How can you make sure your not making an endless loop?"
+          },
+          {
+            "text": "When is the best time to create functions?"
+          },
+          {
+            "text": "How many arguments can the input function hold? "
+          },
+          {
+            "text": "What does String.strip() do?"
+          },
+          {
+            "text": "What does the ord() function achieve?"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "python_overview",
+        "examples": [
+          {
+            "text": "What is the most helpful function to use in python? "
+          },
+          {
+            "text": "What is the difference between pycharm and idle?"
+          },
+          {
+            "text": "What all can I do with Python?"
+          },
+          {
+            "text": "Where can you find all the functions already in python?"
+          },
+          {
+            "text": "How long does it take to master Python?"
+          },
+          {
+            "text": "What is PEP8?"
+          },
+          {
+            "text": "How much space does python take up on my computer?"
+          },
+          {
+            "text": "Can I use Python for web development and phone applications/games?"
+          },
+          {
+            "text": "Why does python care about tabs and not spacing?"
+          },
+          {
+            "text": "How can I better understand Python and how coding works?"
+          },
+          {
+            "text": "Benefits of python vs other languages?"
+          },
+          {
+            "text": "Can you teach yourself python?"
+          },
+          {
+            "text": "What are the best resources to use to learn?"
+          },
+          {
+            "text": "What are the most useful built-in python functions?"
+          },
+          {
+            "text": "What is the difference between python and other programming languages?"
+          },
+          {
+            "text": "Is there anything you can't program with Python?"
+          },
+          {
+            "text": "What are the most commonly used built-in python functions?"
+          }
+        ]
+      },
+      {
+        "intent": "explain_code",
+        "examples": [
+          {
+            "text": "How to format various types correctly?"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "data_structures",
+        "examples": [
+          {
+            "text": "How to form a tuple?"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "code_example",
+        "examples": [
+          {
+            "text": "How do access a certain item in a list?"
+          },
+          {
+            "text": "how do i write a dictionary?"
+          },
+          {
+            "text": "How do you construct a for-loop?"
+          },
+          {
+            "text": "how is a for statement written?"
+          },
+          {
+            "text": "how do you declare an empty list?"
+          },
+          {
+            "text": "What's the easiest way to organize basic functions?"
+          },
+          {
+            "text": "How do I use .format"
+          },
+          {
+            "text": "How do I create a for loop?"
+          },
+          {
+            "text": "How do i append a string"
+          },
+          {
+            "text": "How do you create a for loop?"
+          },
+          {
+            "text": "How do you print values from a loop in one line?"
+          },
+          {
+            "text": "How do you call/invoke a routine/function?"
+          },
+          {
+            "text": "How does 'return' function work in python?"
+          },
+          {
+            "text": "How do you use the def function?"
+          },
+          {
+            "text": "How to i make a loop?"
+          },
+          {
+            "text": "How does the .join() operation work?"
+          },
+          {
+            "text": "How do you use def?"
+          },
+          {
+            "text": "How do you create a table?"
+          },
+          {
+            "text": "How do I type a for loop?"
+          },
+          {
+            "text": "I would like to know how to efficiently run def functions in loops"
+          },
+          {
+            "text": "How to change a string to capitol letters?"
+          },
+          {
+            "text": "How do if statements work?"
+          },
+          {
+            "text": "how do I convert numbers given in an input to other characters like: * or #?"
+          },
+          {
+            "text": "How do you create a table of numbers in python?"
+          },
+          {
+            "text": "how do you count how many items are in a list"
+          },
+          {
+            "text": "how does 'end = ' work?"
+          },
+          {
+            "text": "how is a while loop written?"
+          },
+          {
+            "text": "What's the best way to do a for loop?"
+          },
+          {
+            "text": "How can I create different variable names while in a loop?"
+          },
+          {
+            "text": "How do you add an item to a list?"
+          },
+          {
+            "text": "How do nested loops work?"
+          },
+          {
+            "text": "What should the format function look like?"
+          },
+          {
+            "text": "Where to place the return command?"
+          },
+          {
+            "text": "How do you assign a variable?"
+          },
+          {
+            "text": "What does the len function do?"
+          },
+          {
+            "text": "what's the correct way to use format?"
+          },
+          {
+            "text": "how do you fully use a boolean type, then compare the inputs?"
+          },
+          {
+            "text": "How do while loops work?"
+          },
+          {
+            "text": "how do you create a blank line"
+          },
+          {
+            "text": "how can i make a string lowercase?"
+          },
+          {
+            "text": "what is the syntax for input statements?"
+          },
+          {
+            "text": "What do the different brackets mean in python"
+          },
+          {
+            "text": "How do you return the location (position) of aNumber in aList?"
+          },
+          {
+            "text": "How do you call a value from a list using its index number?"
+          },
+          {
+            "text": "What goes in the parentheses when defining a function?"
+          },
+          {
+            "text": "How to append to a list?"
+          },
+          {
+            "text": "How do you format numbers?"
+          },
+          {
+            "text": "How do you access a list that is within another list?"
+          },
+          {
+            "text": "How to use the format command?"
+          },
+          {
+            "text": "How does the remove function work?"
+          },
+          {
+            "text": "how do you solve a value- returning function?"
+          },
+          {
+            "text": "How do you return the value of a location in a list?"
+          },
+          {
+            "text": "How do you use alignment specifiers?"
+          },
+          {
+            "text": "how do you center justify a word"
+          },
+          {
+            "text": "when using an if statement are you required to end it with an else statement?"
+          },
+          {
+            "text": "how do i take a square root "
+          },
+          {
+            "text": "how to you convert an integer to binary?"
+          },
+          {
+            "text": "How can I make a count_passing(grade_list, passing_score) that accepts two parameters: a list of numeric grades, and a passing score - and returns a count of the number?"
+          },
+          {
+            "text": "How do you create a routine?"
+          },
+          {
+            "text": "How does string concatenation work?"
+          },
+          {
+            "text": "How do you stop an infinite loop? "
+          },
+          {
+            "text": "How do you print a table?"
+          },
+          {
+            "text": "How do i convert a string to a number?"
+          },
+          {
+            "text": "How does a while loop work?"
+          },
+          {
+            "text": "How do I write a for-loop?"
+          },
+          {
+            "text": "How do we make columns and rows while placing them just right?"
+          },
+          {
+            "text": "How do you print /?"
+          },
+          {
+            "text": "How do i format the spaces when creating a chart?"
+          },
+          {
+            "text": "How do you solve and create looped functions?"
+          },
+          {
+            "text": "how to make a custom size table from an input from the user, while in a defined function?"
+          },
+          {
+            "text": "How do you make tables with certain number of rows and columns?"
+          },
+          {
+            "text": "how do you create a function"
+          },
+          {
+            "text": "how to accurately nest while and for loops"
+          },
+          {
+            "text": "In order to run a print function correctly, what must it contain at the beginning and end? "
+          },
+          {
+            "text": "how do i write a while loop"
+          },
+          {
+            "text": "What is the difference between an argument and a parameter?"
+          },
+          {
+            "text": "How can I make a return that is a sum of all the odd numbers between 1 (inclusive) and n (exclusive)?"
+          },
+          {
+            "text": "How do you call a routine?"
+          },
+          {
+            "text": "When is the best time to use an if statement?"
+          },
+          {
+            "text": "What function organizes my list from lowest to greatest?"
+          },
+          {
+            "text": "What methods can remove values from a python array?"
+          },
+          {
+            "text": "How to convert tuples and lists?"
+          },
+          {
+            "text": "How does if/elif work?"
+          },
+          {
+            "text": "How do you limit decimals in a float value?"
+          },
+          {
+            "text": "Which way does Python read exponents?"
+          },
+          {
+            "text": "How do you implement your own function?"
+          },
+          {
+            "text": "How do you create a table with multiple rows and columns?"
+          },
+          {
+            "text": "How does a def function work?"
+          },
+          {
+            "text": "When do you need to use if statements?"
+          },
+          {
+            "text": "How do you solve idx in range problems?"
+          },
+          {
+            "text": "how do you solve idx in range problem?"
+          },
+          {
+            "text": "What will 'ord' return? "
+          },
+          {
+            "text": "what does {:>3} do when formatting"
+          },
+          {
+            "text": "What does the loop do?"
+          },
+          {
+            "text": "How do you make a copy of a list?"
+          },
+          {
+            "text": "In a string sequence, are the indices each letter?"
+          },
+          {
+            "text": "How to use .upper and .lower?"
+          },
+          {
+            "text": "How do 'def' statements work?"
+          },
+          {
+            "text": "How do you give a string a numeric value?"
+          },
+          {
+            "text": "How do we use Boolean statements in functions?"
+          },
+          {
+            "text": "When do you need while loops?"
+          },
+          {
+            "text": "True or False: Comments with hashtags # can only be put at the very top of the program, before any code?"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "greeting",
+        "examples": [
+          {
+            "text": "hi"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "python_functionality",
+        "examples": [
+          {
+            "text": "How is memory managed in Python?"
+          },
+          {
+            "text": "what are the benefits of using python?"
+          }
+        ]
+      },
+      {
+        "intent": "error_handling",
+        "examples": [
+          {
+            "text": "What if my def function doesn't print?"
+          },
+          {
+            "text": "why is my program stuck in a loop?"
+          },
+          {
+            "text": "Why do some calls need print statements and others don't"
+          },
+          {
+            "text": "What should you do if your program is still running, but it's not giving any  output?"
+          },
+          {
+            "text": "What if I call my function and it still doesn't work even though I know it doesn't need a return?"
+          },
+          {
+            "text": "Why doesn't python give more of a hint when you have an error?"
+          },
+          {
+            "text": "If my remove function doesn't work what might be wrong with it?"
+          },
+          {
+            "text": "What does syntax error mean?"
+          },
+          {
+            "text": "How would you solve a non-value returning function problem?"
+          },
+          {
+            "text": "What should you do first if you have no output?"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "data_types",
+        "examples": [
+          {
+            "text": "What is the difference between list and tuple in python?"
+          },
+          {
+            "text": "What is the difference between a tuple and a list?"
+          },
+          {
+            "text": "What's the difference between a tuple and a string? "
+          },
+          {
+            "text": "what is the difference between list and tuples?"
+          },
+          {
+            "text": "What are the built-in type does python provide?"
+          },
+          {
+            "text": "How do change from string type to integer type?"
+          },
+          {
+            "text": "what is a float"
+          },
+          {
+            "text": "Are strings immutable? "
+          },
+          {
+            "text": "Why would you ever use two lists over a dictionary?"
+          },
+          {
+            "text": "What is the difference between a list and a tuple?"
+          },
+          {
+            "text": "What are the limitations of string types?"
+          },
+          {
+            "text": "what are the supported data types in python?"
+          },
+          {
+            "text": "When should you use a tuple over a list?"
+          },
+          {
+            "text": "Can String values be altered?"
+          },
+          {
+            "text": "What are the limitations of integer types?"
+          },
+          {
+            "text": "What is Mutable and Immutable Data types?"
+          }
+        ]
+      },
+      {
+        "intent": "questions_for_cobra",
+        "examples": [
+          {
+            "text": "what is your name"
+          },
+          {
+            "text": "who are you"
+          },
+          {
+            "text": "what is your designation"
+          },
+          {
+            "text": "what are you called"
+          },
+          {
+            "text": "do you know who you are"
+          },
+          {
+            "text": "who are you again"
+          },
+          {
+            "text": "I do not know who this is"
+          },
+          {
+            "text": "what's your name"
+          },
+          {
+            "text": "you did not introduce yourself"
+          },
+          {
+            "text": "your name please"
+          },
+          {
+            "text": "who is talking"
+          },
+          {
+            "text": "you did not tell me your name"
+          },
+          {
+            "text": "who am I talking to"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "conditions",
+        "examples": [
+          {
+            "text": "What is the difference between an elif and else statement?"
+          },
+          {
+            "text": "How to compare two strings"
+          }
+        ],
+        "description": ""
+      }
+    ],
+    "entities": [
+      {
+        "entity": "pythongen",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "pythonoverview",
+            "synonyms": [
+              "python",
+              "what is python"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "useful",
+            "synonyms": [
+              "useful",
+              "useful python"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "webdevelopement",
+            "synonyms": [
+              "web",
+              "web development"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "python",
+            "synonyms": [
+              "what is python"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "compiler",
+            "synonyms": [
+              "idle",
+              "pycharm",
+              "what is a compiler"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "linkdocumentation",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "languagecompare",
+            "synonyms": [
+              "python is better",
+              "python over",
+              "python vs java"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "learningpython",
+            "synonyms": [
+              "how long does it take to learn",
+              "how long",
+              "learn",
+              "learn python"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "pythoncapabilities",
+            "synonyms": [
+              "cant make with python",
+              "cant program with python"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "compilercompare",
+            "synonyms": [
+              "better compiler",
+              "idle vs pycharm",
+              "difference between idle and pycharm",
+              "difference between pycharm and idle"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "benefits",
+            "synonyms": [
+              "benefits"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "memory",
+            "synonyms": [
+              "memory managed",
+              "memory"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "bitbyte",
+            "synonyms": [
+              "byte",
+              "bit"
+            ]
+          }
+        ]
+      },
+      {
+        "entity": "ifelse",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "conditions",
+            "synonyms": [
+              "condition"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "ifelsedefinition",
+            "synonyms": [
+              "if else",
+              "what is if else"
+            ]
+          }
+        ]
+      },
+      {
+        "entity": "operators",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "{:>3}",
+            "synonyms": [
+              "{:>3}"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "membership",
+            "synonyms": [
+              "membership operator",
+              "membership"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "exponents",
+            "synonyms": [
+              "exponents"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "equal",
+            "synonyms": [
+              "equal to",
+              "equal"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "{:^3}",
+            "synonyms": [
+              "{:^3}"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "%",
+            "synonyms": [
+              "%"
+            ]
+          }
+        ]
+      },
+      {
+        "entity": "loops",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "forstatement",
+            "synonyms": [
+              "for statement"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "whileloop",
+            "synonyms": [
+              "what is a while loop",
+              "do while",
+              "while loop",
+              "while"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "forloop",
+            "synonyms": [
+              "create a for loop",
+              "what is a for loop",
+              "for loop in",
+              "for each in",
+              "for",
+              "for loop"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "forloopstring",
+            "synonyms": [
+              "print from loop",
+              "print values from a loop"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "deffuncloop",
+            "synonyms": [
+              "functions in loop",
+              "def functions in loop"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "generaldef",
+            "synonyms": [
+              "define",
+              "what is a loop"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "loopcomparison",
+            "synonyms": [
+              "for vs while",
+              "things a for loop can do that a while can't",
+              "for loop vs while loop"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "loopvarnames",
+            "synonyms": [
+              "variable names in a loop"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "stoploop",
+            "synonyms": [
+              "exit a loop",
+              "how do you stop a loop",
+              "stop loop"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "loopinfinite",
+            "synonyms": [
+              "loop infinite",
+              "infinite"
+            ]
+          }
+        ]
+      },
+      {
+        "entity": "structures",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "mutability",
+            "synonyms": [
+              "mutability"
+            ]
+          }
+        ]
+      },
+      {
+        "entity": "math",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "mathlibrary",
+            "synonyms": [
+              "math library",
+              "math import",
+              "math"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "squareroot",
+            "synonyms": [
+              "sqr root",
+              "square root"
+            ]
+          }
+        ]
+      },
+      {
+        "entity": "structure",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "dictionary",
+            "synonyms": [
+              "dictionary"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "variables",
+            "synonyms": [
+              "variable",
+              "assign"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "tuple",
+            "synonyms": [
+              "tuple"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "integer",
+            "synonyms": [
+              "integer"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "float",
+            "synonyms": [
+              "float"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "boolean",
+            "synonyms": [
+              "boolean statements",
+              "true or false",
+              "boolean"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "bytecode",
+            "synonyms": [
+              "byte",
+              "byte code"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "converttuplelist",
+            "synonyms": [
+              "convert list to tuple",
+              "convert tuple to list"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "converttypes",
+            "synonyms": [
+              "convert to",
+              "convert",
+              "convert types"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "routine",
+            "synonyms": [
+              "routine"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "typediff",
+            "synonyms": [
+              "type",
+              "type difference",
+              "difference bewtween types"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "globalvariable",
+            "synonyms": [
+              "global variable",
+              "global"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "sequence",
+            "synonyms": [
+              "sequence"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "structurecompare",
+            "synonyms": [
+              "difference between",
+              "difference between types",
+              "difference between list and tuple"
+            ]
+          }
+        ]
+      },
+      {
+        "entity": "list",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "listcomparison",
+            "synonyms": [
+              "difference",
+              "versus",
+              "over",
+              "tuple over a list"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "sort",
+            "synonyms": [
+              "sort()",
+              "sort"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "location",
+            "synonyms": [
+              "find object",
+              "location",
+              "index"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "definelist",
+            "synonyms": [
+              "what is a list",
+              "declare"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "countlist",
+            "synonyms": [
+              "list length",
+              "how many items are in a list",
+              "how many"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "index",
+            "synonyms": [
+              "i in",
+              "item in list",
+              "certain item in a list",
+              "index"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "brackets",
+            "synonyms": [
+              "[]",
+              "brackets"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "append",
+            "synonyms": [
+              "list.append",
+              "append"
+            ]
+          }
+        ]
+      },
+      {
+        "entity": "variouserrors",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "errorhints",
+            "synonyms": [
+              "where error is",
+              "error hint"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "syntaxerror",
+            "synonyms": [
+              "syntax",
+              "syntax error"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "nooutput",
+            "synonyms": [
+              "output nothing",
+              "no output"
+            ]
+          }
+        ]
+      },
+      {
+        "entity": "unclassified",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "unclassified",
+            "synonyms": []
+          }
+        ]
+      },
+      {
+        "entity": "basicsyntax",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "allignment",
+            "synonyms": [
+              "spacing",
+              "center",
+              "allignment"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "comment",
+            "synonyms": [
+              "hashtag",
+              "comment"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "whitespace",
+            "synonyms": [
+              "spacing",
+              "tabs"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "pep8",
+            "synonyms": [
+              "pep",
+              "pep8"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "definevariables",
+            "synonyms": [
+              "define variable",
+              "assign variable",
+              "name variable"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "spacing",
+            "synonyms": [
+              "spacing"
+            ]
+          }
+        ]
+      },
+      {
+        "entity": "strings",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "replace",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "convertstring",
+            "synonyms": [
+              "convert",
+              "convert string"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "comparestrings",
+            "synonyms": [
+              "compare",
+              "compare strings"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "instringindex",
+            "synonyms": [
+              "indeces",
+              "string sequence",
+              "index"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "endstring",
+            "synonyms": [
+              "end line",
+              "end string",
+              "end"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "lowercase",
+            "synonyms": [
+              ".lowercase",
+              "lowercase"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "reverse",
+            "synonyms": [
+              "reverse a string",
+              "reverse"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "uppercase",
+            "synonyms": [
+              ".uppercase",
+              "uppercase"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "strip",
+            "synonyms": [
+              ".strip",
+              "strip",
+              "strinf.strip"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "stringtypes",
+            "synonyms": [
+              "string types",
+              "types of strings"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "stringconcatenation",
+            "synonyms": [
+              "string concatenation",
+              "concatenation"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "stringtoint",
+            "synonyms": [
+              "string type",
+              "change",
+              "change string type",
+              "change string type to integer type"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "stringbasic",
+            "synonyms": [
+              "what is a string",
+              "string"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "append",
+            "synonyms": []
+          }
+        ]
+      },
+      {
+        "entity": "functions",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "remove",
+            "synonyms": [
+              "remove"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "break",
+            "synonyms": [
+              "break"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "turtle",
+            "synonyms": [
+              "turtle"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "print",
+            "synonyms": [
+              "print"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "join",
+            "synonyms": [
+              "join()",
+              "join"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "input",
+            "synonyms": [
+              "input",
+              "user input"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "return",
+            "synonyms": [
+              "return"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "sort",
+            "synonyms": [
+              "sort()",
+              "sort"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "booleanfunctions",
+            "synonyms": [
+              "boolean in",
+              "boolean in functions"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "length",
+            "synonyms": [
+              "length of list",
+              "length of",
+              "length"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "opencv",
+            "synonyms": [
+              "opencv"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "ord",
+            "synonyms": [
+              "ord",
+              "ord()"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "format",
+            "synonyms": [
+              "format",
+              ".format"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "functions",
+            "synonyms": [
+              "functions offered"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "builtin",
+            "synonyms": [
+              "offer",
+              "functions offered",
+              "functions in python",
+              "built in functions in python"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "helpful",
+            "synonyms": [
+              "helpful",
+              "helpful functions"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "deffunction",
+            "synonyms": [
+              "def function",
+              "define functions in python",
+              "def"
+            ]
+          }
+        ]
+      },
+      {
+        "entity": "arrays",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "printtable",
+            "synonyms": [
+              "print table"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "table",
+            "synonyms": [
+              "rows",
+              "columns",
+              "table"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "copyarray",
+            "synonyms": [
+              "copy of array",
+              "copy of a list",
+              "copy"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "arrays",
+            "synonyms": [
+              "table of numbers",
+              "create a table"
+            ]
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "api_version": {
+        "major_version": "v2",
+        "minor_version": "2018-11-08"
+      }
+    },
+    "dialog_nodes": [
+      {
+        "type": "standard",
+        "title": "compilerDifference",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "There is not much variation between compilers in Python, mainly differences in the user interface."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_1_1574624967307",
+        "conditions": "@pythongen:compilercompare",
+        "dialog_node": "node_6_1574637434754",
+        "previous_sibling": "node_8_1574637148476"
+      },
+      {
+        "type": "standard",
+        "title": "AllThatPythonDoes answer",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Python is a programming language with endless possibilities ranging from doing small calculations to creating a command system for a robot in space!"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_1_1574624967307",
+        "conditions": "@pythongen:pythonoverview",
+        "dialog_node": "node_8_1574639775348",
+        "previous_sibling": "node_6_1574637434754"
+      },
+      {
+        "type": "standard",
+        "title": "Whitespace Answer",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Python does not neccesarily specify whether spaces or tabs are the correct form of indentation. Indentation just expects that all instances are consistent (ex, if tabs are used stay consistent!)"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_1_1574624967307",
+        "conditions": "@basicsyntax:whitespace",
+        "dialog_node": "node_8_1574637148476"
+      },
+      {
+        "type": "standard",
+        "title": "compilerDefinition",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "A Python Compiler is a tool that takes the written Python code, and translates it into bytecode which is then used as instructions for the tasks that the computer must complete. "
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_7_1574624891941",
+        "conditions": "@pythongen:compiler",
+        "dialog_node": "node_5_1574638177557",
+        "previous_sibling": "node_6_1574637757898"
+      },
+      {
+        "type": "standard",
+        "title": "infiniteLoopDefinition",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "A loop in Python, as well as in general, becomes infinite if a condition that is trying to be met never becomes false."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_7_1574624891941",
+        "conditions": "@loops:loopinfinite",
+        "dialog_node": "node_6_1574637757898",
+        "previous_sibling": "node_9_1574634561363"
+      },
+      {
+        "type": "standard",
+        "title": "forLoopDefinition",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "For loops are traditionally used when you have a block of code which you want to repeat a fixed number of times. The Python for statement iterates over the members of a sequence in order, executing the block each time."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_7_1574624891941",
+        "conditions": "@loops:forloop",
+        "dialog_node": "node_9_1574634561363"
+      },
+      {
+        "type": "standard",
+        "title": "howtoCompareStrings",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "a = 1\nb = 1\nc = 2\n>>> a is b\nTrue\n>>> a is c\nFalse\n>>> id(a)\n10771520\n>>> id(b)\n10771520"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_10_1574624803325",
+        "conditions": "@strings:comparestrings",
+        "dialog_node": "node_7_1574636140799"
+      },
+      {
+        "type": "standard",
+        "title": "define Function Code Example",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "To call a function, you use the function name with paretheses. If the function has parametes, you will also need to include these parameters iin the calling of the function and if there is a return value, you would need to assign the function to a variable.\n\nEx: \ndef functionName(param1, param2):\nexecutable code\n\nvariableName = functionName(x,y)"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_3_1574624615694",
+        "conditions": "@functions:functions || @functions:deffunction",
+        "dialog_node": "node_3_1574637534556",
+        "previous_sibling": "node_10_1574637261982"
+      },
+      {
+        "type": "standard",
+        "title": "printFromOneLoopToLine Answer",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "In order to print with no new lines in Python, one must end their print statement as follows\nprint(\"\"Thing to be printed\"\", end = ' ')"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_3_1574624615694",
+        "conditions": "@loops && @strings",
+        "dialog_node": "node_10_1574637261982",
+        "previous_sibling": "node_7_1574636472271"
+      },
+      {
+        "type": "standard",
+        "title": "String Append Code Example",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "creating a list and appending strings to the list. Then use string join() function to merge them together to get the result string. \ndef str_append_list_join(s, n):\n    l1 = []\n    i = 0\n    while i < n:\n        l1.append(s)\n        i += 1\n    return ''.join(l1)"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_3_1574624615694",
+        "conditions": "@strings:append",
+        "dialog_node": "node_7_1574636472271",
+        "previous_sibling": "node_10_1574636312076"
+      },
+      {
+        "type": "standard",
+        "title": "Loops Example",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "list = [\"geeks\", \"for\", \"geeks\"] \nfor index in range(len(list)): \n    print list[index] "
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_3_1574624615694",
+        "conditions": "@loops:loopvarnames",
+        "dialog_node": "node_8_1574638321270",
+        "previous_sibling": "node_10_1574638220019"
+      },
+      {
+        "type": "standard",
+        "title": "OrganizeBasicFunctions Code Example",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "You can organize basic functions by whatever standard your company sets - functions can be called at any time, as long as they are no resultant nameclash."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_3_1574624615694",
+        "dialog_node": "node_10_1574636312076",
+        "previous_sibling": "node_4_1574636039803"
+      },
+      {
+        "type": "standard",
+        "title": "Uppercase Code Example",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "In Python, the upper() method returns the input string as an all uppercase version of itself.\n\nstring = \"\"Hello\"\"\nstring.upper()\nstring is now set to HELLO"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_3_1574624615694",
+        "conditions": "@strings:uppercase",
+        "dialog_node": "node_3_1574639445068",
+        "previous_sibling": "node_7_1574639189165"
+      },
+      {
+        "type": "standard",
+        "title": "Create Table Example",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Create an array of arrays to handle creating a table."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_3_1574624615694",
+        "conditions": "@arrays:table",
+        "dialog_node": "node_4_1574639088692",
+        "previous_sibling": "node_8_1574638321270"
+      },
+      {
+        "type": "standard",
+        "title": "Dictionary Code Example",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "\"(Skeleton)\nvariableName = { } #emptySet\nvariableName\""
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_3_1574624615694",
+        "conditions": "@structure:dictionary",
+        "dialog_node": "node_4_1574635401112",
+        "previous_sibling": "node_4_1574626749092"
+      },
+      {
+        "type": "standard",
+        "title": "Format Code Example",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Ask what type you would like to format, and I can see if I can handle it."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_3_1574624615694",
+        "conditions": "@functions:format",
+        "dialog_node": "node_7_1574639189165",
+        "previous_sibling": "node_4_1574639088692"
+      },
+      {
+        "type": "standard",
+        "title": "Return Function Code Example",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "A return statement causes the function to end/exit and return a value."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_3_1574624615694",
+        "conditions": "@functions:return",
+        "dialog_node": "node_10_1574638220019",
+        "previous_sibling": "node_3_1574637534556"
+      },
+      {
+        "type": "standard",
+        "title": "Replace Code Example",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "In python, the replace() function takes a substring to be changed, a substring that it will be changed to, and the amount to be changed into account and replaces the specified substring with its new definition. The amount of substrings that will be changed is an optional field.\n\nexample:\n\nstring = woop\nstring.replace(p, t, 1)\nstring would now be equal to --> woot"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_3_1574624615694",
+        "conditions": "@strings:replace",
+        "dialog_node": "node_10_1574639602618",
+        "previous_sibling": "node_3_1574639445068"
+      },
+      {
+        "type": "standard",
+        "title": "Empty List Code Example",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "To declare an emply list, you need to create a variable and assign it the empty list \"\"[]\"\".\n\nEx:\nemptyList = []"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_3_1574624615694",
+        "conditions": "@list:definelist",
+        "dialog_node": "node_4_1574636039803",
+        "previous_sibling": "node_4_1574635401112"
+      },
+      {
+        "type": "standard",
+        "title": "If/Else/Elif Code Example",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "In Python, the if expression is used to perform a defined statement only when the initial expression is true. If the initial expression is not true, then an else is neccessary to catch the passed value. Otherwise, when more specifications are needed, an elif expression can be used. \n\n(Example)\n\nif expression:\n      Statement\nelif expression:\n      Statement\nelse:\n     Statement"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_3_1574624615694",
+        "conditions": "@ifelse",
+        "dialog_node": "node_4_1574639688082",
+        "previous_sibling": "node_10_1574639602618"
+      },
+      {
+        "type": "standard",
+        "title": "For Loop Code Example",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "(Skeleton)\nfor I in sequence:\n  code to execute\n\nfruits = [\"\"apple\"\", \"\"banana\"\", \"\"cherry\"\"]\nfor x in fruits:\n  print(x)"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_3_1574624615694",
+        "conditions": "@loops:forloop",
+        "dialog_node": "node_4_1574626749092"
+      },
+      {
+        "type": "folder",
+        "title": "Questions For Cobra",
+        "parent": "node_4_1574625015876",
+        "conditions": "#questions_for_cobra",
+        "dialog_node": "node_5_1574624985079",
+        "previous_sibling": "node_1_1574624967307"
+      },
+      {
+        "type": "folder",
+        "title": "Python Functionality",
+        "parent": "node_4_1574625015876",
+        "conditions": "#python_functionality",
+        "dialog_node": "node_7_1574624947628",
+        "previous_sibling": "node_10_1574624932714"
+      },
+      {
+        "type": "folder",
+        "title": "Data Types",
+        "parent": "node_4_1574625015876",
+        "conditions": "#data_types",
+        "dialog_node": "node_1_1574624882075",
+        "previous_sibling": "node_1_1574624861191"
+      },
+      {
+        "type": "folder",
+        "title": "Error Handling",
+        "parent": "node_4_1574625015876",
+        "conditions": "#error_handling",
+        "dialog_node": "node_1_1574624902311",
+        "previous_sibling": "node_7_1574624891941"
+      },
+      {
+        "type": "folder",
+        "title": "Code Examples",
+        "parent": "node_4_1574625015876",
+        "conditions": "#code_example",
+        "dialog_node": "node_3_1574624615694",
+        "previous_sibling": "node_10_1574624803325"
+      },
+      {
+        "type": "standard",
+        "title": "Advanced Question",
+        "output": {
+          "generic": [
+            {
+              "query": "",
+              "filter": "",
+              "query_type": "natural_language",
+              "response_type": "search_skill"
+            }
+          ]
+        },
+        "parent": "node_4_1574625015876",
+        "next_step": {
+          "behavior": "jump_to",
+          "selector": "user_input",
+          "dialog_node": "node_4_1574633786137"
+        },
+        "conditions": "#advanced",
+        "dialog_node": "node_7_1574624011358",
+        "previous_sibling": "node_3_1574624615694"
+      },
+      {
+        "type": "folder",
+        "title": "Conditions",
+        "parent": "node_4_1574625015876",
+        "conditions": "#conditions",
+        "dialog_node": "node_10_1574624803325",
+        "previous_sibling": "node_5_1574624985079"
+      },
+      {
+        "type": "folder",
+        "title": "Python Overview",
+        "parent": "node_4_1574625015876",
+        "conditions": "#python_overview",
+        "dialog_node": "node_1_1574624967307",
+        "previous_sibling": "node_7_1574624947628"
+      },
+      {
+        "type": "folder",
+        "title": "Definitions",
+        "parent": "node_4_1574625015876",
+        "conditions": "#definitions",
+        "dialog_node": "node_7_1574624891941",
+        "previous_sibling": "node_1_1574624882075"
+      },
+      {
+        "type": "standard",
+        "parent": "node_4_1574625015876",
+        "conditions": "",
+        "dialog_node": "node_9_1574627114022",
+        "previous_sibling": "node_7_1574624011358"
+      },
+      {
+        "type": "folder",
+        "title": "Libraries",
+        "parent": "node_4_1574625015876",
+        "conditions": "#libraries",
+        "dialog_node": "node_10_1574624932714",
+        "previous_sibling": "node_2_1574624918695"
+      },
+      {
+        "type": "folder",
+        "title": "Explain Code",
+        "parent": "node_4_1574625015876",
+        "conditions": "#explain_code",
+        "dialog_node": "node_2_1574624918695",
+        "previous_sibling": "node_1_1574624902311"
+      },
+      {
+        "type": "folder",
+        "title": "Data Structures",
+        "parent": "node_4_1574625015876",
+        "conditions": "#data_structures",
+        "dialog_node": "node_1_1574624861191"
+      },
+      {
+        "type": "standard",
+        "title": "typeDiff Answer",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Tuples are sequences, just like lists. The differences between tuples and lists are, the tuples cannot be changed unlike lists and tuples use parentheses, whereas lists use square brackets. Strings are values that consists of primary text components."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_1_1574624882075",
+        "conditions": "@structure:typediff",
+        "dialog_node": "node_1_1574638103828"
+      },
+      {
+        "type": "standard",
+        "title": "defFunctionNotPrint Error",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "To ensure that a function returns a value in Python, one can either make sure there is a returned value coming from the function, or that when the function is being called, it is within a print statement."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_1_1574624902311",
+        "conditions": "@functions:deffunction",
+        "dialog_node": "node_1_1574639533597",
+        "previous_sibling": "node_4_1574635664295"
+      },
+      {
+        "type": "standard",
+        "title": "stuckLoop error",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "The loop is stuck in a reiterative condition, where the statement associated with it is always true. \"While true\" is a good example of why a loop could be infinite."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_1_1574624902311",
+        "conditions": "@loops:forloop",
+        "dialog_node": "node_4_1574635664295"
+      },
+      {
+        "type": "folder",
+        "title": "All Questions",
+        "digress_in": "does_not_return",
+        "dialog_node": "node_4_1574625015876",
+        "previous_sibling": "Welcome"
+      },
+      {
+        "type": "standard",
+        "title": "Anything else",
+        "output": {
+          "text": {
+            "values": [
+              "I didn't understand. You can try rephrasing.",
+              "Can you reword your statement? I'm not understanding.",
+              "I didn't get your meaning."
+            ],
+            "selection_policy": "sequential"
+          }
+        },
+        "conditions": "anything_else",
+        "dialog_node": "Anything else",
+        "previous_sibling": "node_4_1574633786137",
+        "disambiguation_opt_out": true
+      },
+      {
+        "type": "standard",
+        "title": "Search Skill",
+        "output": {
+          "generic": [
+            {
+              "query": "",
+              "filter": "",
+              "query_type": "natural_language",
+              "response_type": "search_skill"
+            }
+          ]
+        },
+        "dialog_node": "node_4_1574633786137",
+        "previous_sibling": "node_4_1574625015876"
+      },
+      {
+        "type": "standard",
+        "title": "Welcome",
+        "output": {
+          "text": {
+            "values": [
+              "Hello, I'm CobraBot! I can help you with basic Python syntax, definitions, and questions about libraries. What can I assist you with today?"
+            ],
+            "selection_policy": "sequential"
+          }
+        },
+        "conditions": "welcome",
+        "dialog_node": "Welcome"
+      }
+    ],
+    "counterexamples": [],
+    "system_settings": {
+      "spelling_auto_correct": true
+    },
+    "learning_opt_out": false
+  },
+  "description": "",
+  "workspace_id": "4e42c31d-04cc-4254-9653-bc8568240562"
+}
